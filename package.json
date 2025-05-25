@@ -1,0 +1,23 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "Notes App with React frontend and Express backend",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "heroku-postbuild": "cd backend && npm install",
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": [
+    "notes",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC"
+}
